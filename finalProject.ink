@@ -170,7 +170,164 @@ Your muscles feel like you haven't strecthed them a day in your life, as if you'
 
 
 
+=== Evening ===
+You make it back home and aproach the front door. You see a sticky note stuck to the door.
++[Read the note]->DoorNote
 
+=== DoorNote ===
+You pick you the note and it reads:
+"Great job making it this far, you've almost made it through the day. Make sure you take the proper steps in relaxing to prepare for the next day."
++[Enter Home]->Foyer
+
+=== Foyer ===
+You enter the foyer. The house is pitch black and silent.{WriteNote1:You feel a note on the wall.}
++[Turn the light on]->Choice1
++[Take off shoes]->Panic
++[Put keys away]->Panic
++{WriteNote1}[Check Note]->Choice1Note
+
+=== Choice1 ===
+You turn the lights on allowing you to see what you're doing while you start relaxing after your day. With the light you can place your keys into the dish by the door, and neatly place your shoes aligned with the rest.{not WriteNote1: Should probably make note of my choice.}{WriteNote2:You see a note on the wall.}
++{not WriteNote1}[Make note]->WriteNote1
++[Go to the living room and watch TV]->Panic
++[Go to the kitchen and make food]->Choice2
++[Go to bed and scroll socail media]->Panic
++{WriteNote2}[Check Note]->Choice2Note
+
+=== WriteNote1 ===
+You make the note:
+"Turn on the lights first"
++[Continue]->Choice1
+
+=== Choice1Note ===
+The note reads:
+"Turn on the lights first"
++[Continue]->Foyer
+
+=== Choice2 ===
+Hunger is setting in, you make your way to the kitchen to make a meal before leisure time. Question now is what should be made to eat.{not WriteNote2: Should probably make note of my choice.}{WriteNote3:You see a note on the counter.}
++{not WriteNote2}[Make note]->WriteNote2
++[Make breakfest for dinner]->Panic
++[Make a TV dinner]->Panic
++[Make a balanced stake dinner]->Choice3
++{WriteNote3}[Check Note]->Choice3Note
+
+=== WriteNote2 ===
+You make the note:
+"You are hungery it would be best to start with food"
++[Continue]->Choice2
+
+=== Choice2Note ===
+The note reads:
+"You are hungery it would be best to start with food"
++[Continue]->Choice1
+
+=== Choice3 ===
+You cook a nice balanced stake dinner with mashed potatoes and mixed greens. You go to your dinning room table before you enjoy your meal, some ambience would be a nice pairing.{not WriteNote3: Should probably make note of my choice.}{WriteNote4:You see a note on the table.}
++{not WriteNote3}[Make note]->WriteNote3
++[Play music to break the silence]->Panic
++[Play a show on the TV for entertainment]->Choice4
++[Light some candles on the table]->Panic
++{WriteNote4}[Check Note]->Choice4Note
+
+
+=== WriteNote3 ===
+You make the note:
+"A nice balanced meal would be good for tonight"
++[Continue]->Choice3
+
+=== Choice3Note ===
+The note reads:
+"A nice balanced meal would be good for tonight"
++[Continue]->Choice2
+
+=== Choice4 ===
+You turn the TV on to your favorite show and watch it as you enjoy your meal. You finish your meal yet the show hasn't finsihed yet.{not WriteNote4: Should probably make note of my choice.}{WriteNote5:You see another note on the counter.}
++{not WriteNote4}[Make note]->WriteNote4
++[Pause the show to clean the dishes]->Choice5
++[Sit there and watch till the show is over]->Panic
++[Do the dishes and finsih the show another day]->Panic
++{WriteNote5}[Check Note]->Choice5Note
+
+
+
+=== WriteNote4 ===
+You make the note:
+"It's always nice to watch a show with dinner"
++[Continue]->Choice4
+
+=== Choice4Note ===
+The note reads:
+"It's always nice to watch a show with dinner"
++[Continue]->Choice3
+
+=== Choice5 ===
+You pause your show to clean up the dishes from your meal. Once finsihed you sit down on the couch and finish the episode you were watching. You're starting to get quite tired.{not WriteNote5: Should probably make note of my choice.}{WriteNote6:You see a note on the side table.}
++{not WriteNote5}[Make note]->WriteNote5
++[Watch another episode]->Panic
++[Start playing a video game]->Panic
++[Go to the bathroom to get cleaned up before bed]->Choice6
++{WriteNote6}[Check Note]->Choice6Note
+
+
+=== WriteNote5 ===
+You make the note:
+"Pause for now and clean, you can finish it after."
++[Continue]->Choice5
+
+=== Choice5Note ===
+The note reads:
+"Pause for now and clean, you can finish it after."
++[Continue]->Choice4
+
+=== Choice6 ===
+You go to the bathroom and get cleaned up before bed; brush your teeth, wash your face, ect. What's left to do now?{not WriteNote6: Should probably make note of my choice.}{WriteNote7:You see a note on the mirror.}
++{not WriteNote6}[Make note]->WriteNote6
++[Go back and continue the show]->Panic
++[Go to bed]->Choice7
++[Grab a snack before bed]->Panic
++{WriteNote7}[Check Note]->Choice7Note
+
+
+=== WriteNote6 ===
+You make the note:
+"Getting pretty late, would be best to get cleaned up."
++[Continue]->Choice6
+
+=== Choice6Note ===
+The note reads:
+"Getting pretty late, would be best to get cleaned up."
++[Continue]->Choice5
+
+=== Choice7 ===
+You get into bed, ready to sleep.{not WriteNote1: Should probably make one last note of my choice.}
++{not WriteNote7}[Make note]->WriteNote7
++[Go to sleep]->Sleep
+
+
+=== WriteNote7 ===
+You make the note:
+"Best to just sleep, get some good rest for the next day"
++[Continue]->Choice7
+-> END
+
+=== Choice7Note ===
+The note reads:
+"Best to just sleep, get some good rest for the next day"
++[Continue]->Choice6
+
+=== Sleep ===
+You finally managed to make it through a whole day without panicing. You sleep soundly hoping that your notes will be able to guide you through the next day.
+-> END
+
+
+
+
+
+
+=== Panic ===
+You feel a sense of dread, the order wasn't perfect. You begin to panic and your breathing starts to pick up. You sprint into bed and sleep. Hopefully tomorrow will be better.
++[Start the day over]->morning
 
 
 
