@@ -10,7 +10,7 @@ Your goal is to make it all the way through one day in your life. You play the g
 ## Impediments
 Evan: While working on my section I ran into problems making my notebook work as intended but was able to solve that by looking closer through the documentation which helped me make better variables. I also ran into trouble with my files not saving correctly after I compiled all the documents, which I solved by just creating a brand new ink and combining them into that.
 
-Isaac:
+Isaac: I had some issues trying to decide how I wanted the notes to work around the house, however once I figured it out it was a pretty simple process from there. I shouldn't have just named things choice# and just gave everything a number which made it hard to keep track of everything.
 
 Jason:
 
