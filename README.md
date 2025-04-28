@@ -12,7 +12,7 @@ Evan: While working on my section I ran into problems making my notebook work as
 
 Isaac: I had some issues trying to decide how I wanted the notes to work around the house, however once I figured it out it was a pretty simple process from there. I shouldn't have just named things choice# and just gave everything a number which made it hard to keep track of everything.
 
-Jason:
+Jason: I struggled with making choices enjoyable when there was only one correct solution. I made my section more engaging by giving the illusion of some choices being correct until you reach a point where none of the options are accurate. This made it so that choosing the wrong option wasn't just telling you to try again, but instead led you to believe you chose correctly before putting you at a dead end.
 
 ## Implementation
 A standard Ink text adventure, so different story nodes.
