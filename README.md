@@ -25,5 +25,7 @@ Turning it into a narrative adventure with actual scenes through Unity rather th
 
 # Created by: OCDC
 Evan Lucas - created morning section, compiled documents at end, readme file
+
 Isaac Pittman - created day section
+
 Jason Hoffman - created evening section
