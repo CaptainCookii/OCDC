@@ -170,4 +170,4 @@ You've made it through work for the day, time to drive home.
 
 == Reset ==
 <>
-+ [Go home and sleep, today's not your day] -> Outside
++ [Go home and sleep, today's not your day] -> morning
